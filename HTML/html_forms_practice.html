@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Tacos</h1>
+    <h1>Forms Practice</h1>
     <form action="/tacos">
         <p>
             <label for="username">Enter a username: </label>
@@ -88,6 +88,18 @@
             </select>
         </p>
         <button>Submit </button>
+        <br>
+        <hr>
+        <h2>Form Validation</h2>
+        <form action="">
+            <label for="username1">Enter username: </label>
+            <input type="text" name="username1" id="username1" placeholder="username" minlength=1 maxlength=10 required>
+            <label for="email">Please enter an email address: </label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+            <label for="url">Please enter a URL: </label>
+            <input type="url" name="url" id="url" placeholder="url" required>
+            <button>Submit</button>
+        </form>
     </form>
 
 </body>
