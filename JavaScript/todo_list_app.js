@@ -20,7 +20,7 @@ while (userInput.toLowerCase() !== 'quit') {
         console.log('***** END *****');
         userInput = prompt('What would you like to do?');
     } else if (userInput.toLowerCase() === 'delete') {
-        let deleteIndex = prompt('Please enter the index of the todo that you would like to delete.');
+        let deleteIndex = parseInt(prompt('Please enter the index of the todo that you would like to delete.'));
         console.log(`You have deleted: ${todos.splice(deleteIndex, 1)}`);
         userInput = prompt('What would you like to do?');
     } else {
