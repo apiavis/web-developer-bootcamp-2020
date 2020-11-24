@@ -1,0 +1,1 @@
+const validUserNames = strings => strings.filter(str => str.length < 10);
